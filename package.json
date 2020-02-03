@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cypress": "cypress open",
-    "tscompile": "tsc -p ./tsconfig.json"
+    "tscompile": "tsc -p cypress/tsconfig.json --noEmit"
   },
   "eslintConfig": {
     "extends": "react-app"
